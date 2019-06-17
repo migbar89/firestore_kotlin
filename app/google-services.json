@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "206575762434",
+    "firebase_url": "https://fir-android-1b2c8.firebaseio.com",
+    "project_id": "fir-android-1b2c8",
+    "storage_bucket": "fir-android-1b2c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206575762434:android:57502fcb3a750a7c",
+        "android_client_info": {
+          "package_name": "com.example.dell.firebase1111"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206575762434-jm4ahq6vo0b1309jtg1tnuck10m7u297.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.firebase1111",
+            "certificate_hash": "2753c1d65ad5746f94bf08e53fbd4c141b2ba7c5"
+          }
+        },
+        {
+          "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Eo4io37DEP7_2H6adQWYuP76P2gJffg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206575762434:android:5ae4b756204f14c5",
+        "android_client_info": {
+          "package_name": "com.example.dell.firebase_20_01_19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206575762434-3mkrt5teg3bncnuj7043an68gf7nrlr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.firebase_20_01_19",
+            "certificate_hash": "2753c1d65ad5746f94bf08e53fbd4c141b2ba7c5"
+          }
+        },
+        {
+          "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Eo4io37DEP7_2H6adQWYuP76P2gJffg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206575762434:android:7c2d07da976775fa",
+        "android_client_info": {
+          "package_name": "com.example.dell.firebaseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206575762434-77qhtj1rq2jg8s910sfgchh335vnmght.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.firebaseandroid",
+            "certificate_hash": "2753c1d65ad5746f94bf08e53fbd4c141b2ba7c5"
+          }
+        },
+        {
+          "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Eo4io37DEP7_2H6adQWYuP76P2gJffg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206575762434:android:8d955f3e6c15c635",
+        "android_client_info": {
+          "package_name": "com.example.sqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206575762434-vfcifl57t08lsdc29gp2kdpdj9hmata6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sqlite",
+            "certificate_hash": "999cdc36a3143aef60a016bb8ac510a25a11f93c"
+          }
+        },
+        {
+          "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Eo4io37DEP7_2H6adQWYuP76P2gJffg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206575762434-6qf3lsfsvon7g8sb9dt60o46cmqlnc76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
