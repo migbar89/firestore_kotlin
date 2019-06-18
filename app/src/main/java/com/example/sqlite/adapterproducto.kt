@@ -1,11 +1,13 @@
 package com.example.sqlite
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.gms.tasks.OnSuccessListener
@@ -31,6 +33,8 @@ class adapterproducto(val listaproducto:MutableList<DocumentSnapshot>):RecyclerV
         val tvprecio:TextView=itemview.tvprecio
         val tvcantidad:TextView=itemview.tvcantidad
         var delete:ImageView=itemview.imagedelete
+
+        var edit:ImageView=itemview.imageedit
        // private var db: room? = null
 
     }
@@ -50,6 +54,15 @@ class adapterproducto(val listaproducto:MutableList<DocumentSnapshot>):RecyclerV
         p0.tvnombre.setText(listaproducto[p1].get("nombre").toString())
         p0.tvprecio.setText(listaproducto[p1].get("precio").toString())
         p0.tvcantidad.setText(listaproducto[p1].get("cantidad").toString())
+
+        p0.edit.setOnClickListener {
+            var intent = Intent(p0.itemView.context,EditarProducto::class.java)
+            datospublicos.idproducto=listaproducto[p1].id
+            datospublicos.producto=listaproducto[p1]
+            p0.itemView.context.startActivity(intent)
+
+
+        }
 
 
         p0.delete.setOnClickListener {

@@ -19,11 +19,7 @@ class Activity_RegistrarProducto : AppCompatActivity() {
 
             btguardarproducto.setOnClickListener {
 
-                val pro=producto()
-                pro.nombre=tvnombre.text.toString()
-                pro.categoria=tvcategoria.text.toString()
-                pro.cantidad=tvcantidad.text.toString().toInt()
-                pro.precio=tvprecio.text.toString().toFloat()
+
 
                 val pro1 = HashMap<String,Any>()
                 pro1.put("nombre", tvnombre.text.toString())
@@ -32,7 +28,7 @@ class Activity_RegistrarProducto : AppCompatActivity() {
                 pro1.put("categoria", tvcategoria.text.toString())
 
                 db.collection("productos")
-                    .add(pro).
+                    .add(pro1).
                     addOnSuccessListener(OnSuccessListener {
                         Toast.makeText(this,"Producto Insertado",Toast.LENGTH_SHORT).show()
                     })

@@ -1,9 +1,16 @@
 package com.example.sqlite
 
-import android.content.Context
+import com.google.firebase.firestore.DocumentSnapshot
 
-object datospublicos
+class datospublicos
 {
+    companion object
+    {
+
+        public var producto:DocumentSnapshot?=null
+        public var idproducto:String?=null
+
+    }
 
 
 
